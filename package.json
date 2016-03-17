@@ -1,6 +1,6 @@
 {
   "name": "ebuffer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enhanced Buffer",
   "main": "lib/ebuffer.js",
   "keywords": [ "buffer" ],
@@ -19,7 +19,7 @@
       "url": "https://github.com/ryanking8215/node-ebuffer"
   },
   "bugs": {
-    "url": "https://github.com/ryanking8215/node-ebuffer/issues",
+    "url": "https://github.com/ryanking8215/node-ebuffer/issues"
   },
   "author": {
       "name":"Ryan King",
