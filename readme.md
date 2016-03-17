@@ -1,9 +1,9 @@
 # EBuffer
-An Enhanced buffer for using buffer easily.
+An enhanced buffer for using buffer easily.
 
 ## Installation
 ``` bash
-    $ npm install node-ebuffer
+    $ npm install ebuffer
 ```
 
 ## Usage
