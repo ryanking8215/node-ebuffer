@@ -10,6 +10,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ryanking",
+  "devDependencies": {
+      "mocha": "*",
+      "chai": "*"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ryanking8215/node-ebuffer"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanking8215/node-ebuffer/issues",
+  },
+  "author": {
+      "name":"Ryan King",
+      "email": "ryanking8215@gmail.com",
+      "url": "ryanking8215.github.io"
+  },
   "license": "MIT"
 }
