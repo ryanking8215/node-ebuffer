@@ -1,10 +1,6 @@
 # EBuffer
 An Enhanced buffer for using buffer easily.
 
-- With consuming style, you don't need to maintain `offset`.
-- Automatically growing to contain the data.
-- Endianness set once, using everywhere.
-
 ## Installation
 ``` bash
     $ npm install node-ebuffer
@@ -14,7 +10,7 @@ An Enhanced buffer for using buffer easily.
 ``` javascript
 var EBuffer = require('ebuffer')
 
-// using default size(1024) and byte_order(os.endianness())
+// using default size(1024) and default byte_order(os.endianness())
 var buf = new EBuffer();
 // size is 512, byte_order is 'BE'
 var buf = new EBuffer(512, 'BE');
@@ -39,7 +35,7 @@ console.log(buf.length()); // 0
 
 // using peek to fetch the data, which won't consuming the data
 buf.writeUInt8(50);
-var b = buf.peek(-1); // -1 will using whole data, return Buffer object
+var b = buf.peek(); // using all valid data, return Buffer object
 console.log(b.readUInt8()); // 50
 console.log(buf.length()); // 1
 ```
